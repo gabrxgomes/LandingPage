@@ -1,0 +1,70 @@
+@media screen and (max-width: 760px){
+    /*isso quer dizer que quando o site chegar na largura de 
+    760px ele vai aplicar tudo que está aqui dentro*/
+
+    /* um exemplo de estilização
+    body{
+        background-color: aqua;
+    }
+    */
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+     
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+    
+    h2{
+        font-size: 38px;
+    }
+ }
+
+@media only screen and (min-width: 1200px) { 
+    
+    h2{
+        font-size: 38px;
+    }
+ }
+
+
+
+ /*RESPONSIVO FULL !!!*/
